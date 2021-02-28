@@ -18,9 +18,9 @@ This dataset contains around 65k+ traffic related violation records.
 11. drugs_related_stop - Whether person was involved in drugs crime or not
 
 ### Libraries Used:
-- <a><img src="https://pandas.pydata.org/docs/_static/pandas.svg" alt="Seaborn" align="center" width="75"/></a>
-- <a><img src="https://matplotlib.org/_static/logo2_compressed.svg" alt="matplotlib" align="center" width="75"/></a>
-- <a><img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" alt="Seaborn" align="center" width="75"/></a>
+- <a><img src="https://pandas.pydata.org/docs/_static/pandas.svg" alt="Seaborn" align="center" width="100"/></a>
+- <a><img src="https://matplotlib.org/_static/logo2_compressed.svg" alt="matplotlib" align="center" width="100"/></a>
+- <a><img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" alt="Seaborn" align="center" width="100"/></a>
 - **missingno**
 
 ### Data Cleaning:
@@ -77,25 +77,25 @@ This dataset contains around 65k+ traffic related violation records.
 
 7. Stop Duration Based on Race
 
-<a><img src="https://github.com/shubamsumbria66/traffic-violation-eda/blob/main/graphs/plot09.png?raw=true" width="450"/></a>
+<a><img src="https://github.com/shubamsumbria66/traffic-violation-eda/blob/main/graphs/plot09.png?raw=true" width="420"/></a>
 
 --
 
 8. Total Search Conduct vs. Drug Related Stop
 
-<a><img src="https://github.com/shubamsumbria66/traffic-violation-eda/blob/main/graphs/plot10.png?raw=true" width="380"/></a>
+<a><img src="https://github.com/shubamsumbria66/traffic-violation-eda/blob/main/graphs/plot10.png?raw=true" width="420"/></a>
 
 --
 
 9. Correlation Heatmap
 
-<a><img src="https://github.com/shubamsumbria66/traffic-violation-eda/blob/main/graphs/plot11.png?raw=true" width="450"/></a>
+<a><img src="https://github.com/shubamsumbria66/traffic-violation-eda/blob/main/graphs/plot11.png?raw=true" width="420"/></a>
 
 --
 
 10. Arrested vs. Not Arrested (Before Search Conduct)
 
-<a><img src="https://github.com/shubamsumbria66/traffic-violation-eda/blob/main/graphs/plot12.png?raw=true" width="400"></a>
+<a><img src="https://github.com/shubamsumbria66/traffic-violation-eda/blob/main/graphs/plot12.png?raw=true" width="420"></a>
 
 --
 
