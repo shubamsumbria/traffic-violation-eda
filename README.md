@@ -5,17 +5,28 @@ This is Python based Exploratory Data Analysis on traffic dataset to find out di
 This dataset contains around 65k+ traffic related violation records.
 
 #### Attribute Information:
-1. stop_date - Date of violation
-2. stop_time - Time of violation
-3. driver_gender - Gender of violators
-4. driver_age - Age of violators
-5. driver_race -Race of violators
-6. violation - Category of violation
-7. search_conducted - Whether search is conducted or not in True and False form
-8. stop_outcome - Result of violation
-9. is_arrested - Whether person was arrested or not in True and False form
-10. stop_duration - Detained time for violators approx
-11. drugs_related_stop - Whether person was involved in drugs crime or not
+1. `stop_date` - Date of violation
+2. `stop_time` - Time of violation
+3. `driver_gender` - Gender of violators (Male-M, Female-F)
+4. `driver_age` - Age of violators
+5. `driver_race` -Race of violators
+- White
+- Black
+- Hispanic
+- Asian
+- Other
+6. `violation` - Category of violation
+- Speeding
+- Moving Violation (Reckless driving, Hit and run, Assaulting another driver, pedestrian, improper turns and lane changes etc)
+- Equipment (Window tint violations, Headlight/taillights out, Loud exhaust, Cracked windshield, etc.)
+- Registration/Plates
+- Seat Belt
+- other (Call for Service, Violation of City/Town Ordinance, Suspicious Person, Motorist Assist/Courtesy, etc.)
+7. `search_conducted` - Whether search is conducted or not in True and False form
+8. `stop_outcome` - Result of violation
+9. `is_arrested` - Whether person was arrested or not in True and False form
+10. `stop_duration` - Detained time for violators approx (in minutes)
+11. `drugs_related_stop` - Whether person was involved in drugs crime or not (True, False)
 
 ### Libraries Used:
 - <a><img src="https://pandas.pydata.org/docs/_static/pandas.svg" alt="Seaborn" align="center" width="100"/></a>
@@ -43,7 +54,7 @@ This dataset contains around 65k+ traffic related violation records.
 
 <a><img src="https://github.com/shubamsumbria66/traffic-violation-eda/blob/main/graphs/plot03.png?raw=true" width="420"/></a>
 
-- It can be obsev=rved that both male and female drivers aged between 20 to 40 are doing maximum violations, while those above 16 are committing them minimally. It is also evident from the plot that the trend of violations and age group for one gender group follows that of other. This implies to the fact that the violations are independent of the gender of a person, obviously considering all other parameters constant.
+- It can be observed that both male and female drivers aged between 20 to 40 are doing maximum violations, while those above 16 are committing them minimally. It is also evident from the plot that the trend of violations and age group for one gender group follows that of other. This implies to the fact that the violations are independent of the gender of a person, obviously considering all other parameters constant.
 
 2. Distribution in Violation Type
 
@@ -94,11 +105,6 @@ This dataset contains around 65k+ traffic related violation records.
 
 - This bar plot also follows similar trend to that of previos figure, except only the factorisation of total searches committed into time (yearly) in one and into violation type in the other.
 
-10. Arrested vs. Not Arrested (Before Search Conduct)
+10. Arrested vs. Not Arrested (Before and After Search Conduct)
 
-<a><img src="https://github.com/shubamsumbria66/traffic-violation-eda/blob/main/graphs/plot12.png?raw=true" width="420"></a>
-
-
-11. Arrested vs. Not Arrested (After Search Conduct)
-
-<a><img src="https://github.com/shubamsumbria66/traffic-violation-eda/blob/main/graphs/plot13.png?raw=true" width="350"></a>
+<a><img src="https://github.com/shubamsumbria66/traffic-violation-eda/blob/main/graphs/plot12.png?raw=true" width="420"></a> <a><img src="https://github.com/shubamsumbria66/traffic-violation-eda/blob/main/graphs/plot13.png?raw=true" width="239"></a>
