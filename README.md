@@ -29,14 +29,10 @@ This dataset contains around 65k+ traffic related violation records.
 11. `drugs_related_stop` - Whether a person was involved in drugs crime (True, False)
 
 ### Libraries Used:
-<table>
-<tbody>
-<tr>
-<td><a><img src="https://pandas.pydata.org/docs/_static/pandas.svg" alt="Pandas" align="center" width="100"/></a></td>
-<td><a><img src="https://matplotlib.org/_static/logo2_compressed.svg" alt="matplotlib" align="center" width="100"/></a></td>
-<td><a><img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" alt="Seaborn" align="center" width="100"/></a></td>
-</tr>
-</tbody>
+- <a><img src="https://pandas.pydata.org/docs/_static/pandas.svg" alt="Seaborn" align="center" width="100"/></a>
+- <a><img src="https://matplotlib.org/_static/logo2_compressed.svg" alt="matplotlib" align="center" width="100"/></a>
+- <a><img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" alt="Seaborn" align="center" width="100"/></a>
+- **missingno**
 
 ### Data Cleaning:
 
