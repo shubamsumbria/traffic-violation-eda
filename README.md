@@ -1,6 +1,16 @@
 # Traffic Violation EDA 
 This is Python based Exploratory Data Analysis on traffic dataset to find out different trends in order to reduce traffic violations.
 
+#### Language and Libraries
+
+<p>
+<a><img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen" alt="Seaborn"/></a>
+<a><img src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white" alt="Seaborn"/></a>
+<a><img src="https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white" alt="numpy"/></a>
+ <a><img src="https://matplotlib.org/_static/logo2_compressed.svg" alt="cplusplus" width="110"/></a>
+<a><img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" alt="Seaborn"width="110"/></a>
+</p>
+
 ### About Dataset:
 This dataset contains around 65k+ traffic related violation records.
 
@@ -27,12 +37,6 @@ This dataset contains around 65k+ traffic related violation records.
 9. `is_arrested` - Whether a person was arrested in True and False form
 10. `stop_duration` - Detained time for violators approx (in minutes)
 11. `drugs_related_stop` - Whether a person was involved in drugs crime (True, False)
-
-### Libraries Used:
-- <a><img src="https://pandas.pydata.org/docs/_static/pandas.svg" alt="Seaborn" align="center" width="100"/></a>
-- <a><img src="https://matplotlib.org/_static/logo2_compressed.svg" alt="matplotlib" align="center" width="100"/></a>
-- <a><img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" alt="Seaborn" align="center" width="100"/></a>
-- **missingno**
 
 ### Data Cleaning:
 
