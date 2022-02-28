@@ -1,4 +1,4 @@
-# Traffic Violation EDA 
+# Traffic and Drugs Related Violations Exploratory Data Analysis
 This is Python based Exploratory Data Analysis on traffic dataset to find out different trends in order to reduce traffic violations.
 
 #### Language and Libraries
